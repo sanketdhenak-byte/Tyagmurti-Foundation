@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>त्यागमूर्ती फाउंडेशन</title>
+
+
+
+
+
+
+
+
+
+  <style>
+.hero {
+  position: relative;
+  background: url("image/logo.png") no-repeat center/cover;  /* 👈 ADD THIS LINE */
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero-logo {
+  position: fixed;   /* 🔥 CHANGE THIS */
+  top: 10px;
+  left: 20px;        /* or right: 20px */
+  width: 120px;
+
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  z-index: 1000;     /* 🔥 VERY IMPORTANT */
+}    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    header {
+       background: #ff6600; 
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background: #e65c00;  
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    section {
+      padding: 40px;
+    }
+
+    .hero {
+  background: url("image/photo.jpeg") no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 300px 20px;
+}
+    }
+
+    .btn {
+      background: orange;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      margin: 10px;
+      display: inline-block;
+      width: 30%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #ff6600;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+    }
+
+    button {
+      background: #2c7a7b;
+      color: white;
+      padding: 10px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>त्यागमूर्ती फाउंडेशन</h1>
+  <p>सेवा हीच खरी पूजा माणुसकी हाच आमचा धर्म</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#work">Work</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<img src="image/logo.png" class="hero-logo"> 
+  <h2>Welcome to Tyagmurti Foundation</h2>
+  <p>Join us to make a difference in society</p>
+  <a href="#contact" class="btn">Get Involved</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p><section id="about">
+  <h2>About Us</h2>
+
+  <p><strong>संस्थेचे नाव:</strong> त्यागमूर्ती फाउंडेशन</p>
+
+  <p><strong>संस्थापक:</strong> संकेत बाळासाहेब धेनक</p>
+
+  <p><strong>पत्ता:</strong> संगमनेर ता. संगमनेर जिल्हा अहिल्यानगर</p>
+
+  <p><strong>संपर्क:</strong> ७०८३६३२४३२</p>
+
+  <p><strong>ईमेल:</strong> info@tyagmurti.org</p>
+
+  <p><strong>इंस्टा:</strong> @tyagmurti_foundation</p>
+
+  <p><strong>व्हॉट्सअप ग्रुप लिंक:</strong> Your Link Here</p>
+
+  <p><strong>यूट्यूब लिंक:</strong> Your Link Here</p>
+
+  <p><strong>स्थापना:</strong> ७ जुलै २०२५</p>
+
+  <h3>संस्थेचा उद्देश:</h3>
+
+  <p>शिक्षण: मुलं-मुलींना शिक्षणात आणणे</p>
+  <p>पोषण: कुपोषणमुक्त जीवन</p>
+  <p>सुरक्षा: महिला व कुटुंब सुरक्षित</p>
+  <p>जागृती: अन्न सुरक्षा व आरोग्य विषयक जनजागृती</p>
+
+  <h3>प्रकल्प:</h3>
+
+  <p>घरा घरात शाळा</p>
+  <p>गरजू विद्यार्थ्यांना वसतिगृह प्रवेश मिळवून देणे</p>
+  <p>अन्न व सुरक्षा जनजागृती</p>
+  <p>महिलांना मदत मिळवून देणे</p>
+
+</section>
+
+</p>
+</section>
+
+<section id="work">
+  <h2>Our Work</h2>
+
+  <div class="card">🌳 घरा घरात शाळा</div>
+  <div class="card">👨‍👩‍👧 गरजू विद्यार्थ्यांना वसतिगृह प्रवेश मिळवून देणे</div>
+  <div class="card">📚 अन्न व सुरक्षा जनजागृती</div> 
+  <div class="card"> 🤝 महिलांना मदत मिळवून देणे</div> 
+
+
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="msg"></p>
+</section>
+
+<footer>
+  <p>© 2026 Tyagmurti Foundation</p>
+</footer>
+
+<script>
+  function submitForm(e) {
+    e.preventDefault();
+    document.getElementById("msg").innerText = "Thank you! We will contact you soon.";
+  }
+</script>
+
+</body>
+</html>
